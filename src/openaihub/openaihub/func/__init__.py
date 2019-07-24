@@ -106,7 +106,7 @@ def register(path, operator, logpath, version):
 
 def install(namespace, version):
     # clone the py-oah repo
-    openaihub_git_url = "https://github.com/adrian555/py-oah.git"
+    openaihub_git_url = "https://github.com/tomcli/py-oah.git"
     tempdir = tempfile.mkdtemp()
     basedir = os.path.join(tempdir, os.path.basename(openaihub_git_url))
     Repo.clone_from(openaihub_git_url, basedir)
