@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="openaihub",
-    version="0.0.0.11",
+    name="openaihub-install",
+    version="0.0.1",
     author="Adrian Zhuang",
     author_email="wzhuang@us.ibm.com",
     description="OpenAIHub installer and others",
